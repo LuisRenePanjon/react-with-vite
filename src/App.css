@@ -6,9 +6,11 @@
 }
 
 main {
-  border: 1px solid #fff;
   aspect-ratio: 9/16;
-  max-height: 90%;
   border-radius: 3px;
-  width: 100vw;
+  display: block;
+  height: auto;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  width: auto;
 }

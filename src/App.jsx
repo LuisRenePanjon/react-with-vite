@@ -1,11 +1,14 @@
 
 // import logo from './logo.svg'
 import './App.css'
+import { FeedVideos } from './components/FeedVideos'
 
 function App () {
   return (
     <div className='App'>
-      React with vite
+      <main>
+        <FeedVideos />
+      </main>
     </div>
   )
 }
